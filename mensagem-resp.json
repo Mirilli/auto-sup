@@ -1,0 +1,79 @@
+{'id': '18e72497751e4b07', 'threadId': '18e6ba6e7a46b22f', 'labelIds': ['UNREAD', 'IMPORTANT', 'CATEGORY_PERSONAL', 'INBOX'
+    ], 'snippet': 'TE AMO MEU AMOR JULIA ODONNELL 55 11 9 7544 1221 Em sáb.,
+    23 de mar. de 2024 às 11: 11, &lt;joao.mirilli@gmail.com&gt; escreveu: Te amo meu amor! ❤️ &lt;/br&gt; This is a test email sent via Gmail API.', 'payload': {'partId': '', 'mimeType': 'multipart/alternative', 'filename': '', 'headers': [
+            {'name': 'Delivered-To', 'value': 'joao.mirilli@gmail.com'
+            },
+            {'name': 'Received', 'value': 'by 2002:ab3: 5b98: 0:b0: 258:b035:fbec with SMTP id j24csp1164682ltf;        Sun,
+                24 Mar 2024 14: 06: 41 -0700 (PDT)'
+            },
+            {'name': 'X-Received', 'value': 'by 2002:a19: 2d16: 0:b0: 513:c43a:f0bc with SMTP id k22-20020a192d16000000b00513c43af0bcmr3532446lfj.4.1711314401140;        Sun,
+                24 Mar 2024 14: 06: 41 -0700 (PDT)'
+            },
+            {'name': 'ARC-Seal', 'value': 'i=1; a=rsa-sha256; t=1711314401; cv=none;        d=google.com; s=arc-20160816;        b=yqcrXIS4m78X8d+EUnkXM6cNYkX7Xs3SkU6p4rlgOiJ/8SWIT+uA+nFWPcOZBONExF         TQ+tdHOE89UhzgHmVpLVj7pICvqVHD+Bh6BPawgFtlWRZ7tHkvTv7V53L8ak+MDinQlR         Px7V06+rkKqXa003wowQKZM3/A3jjcTkciH4/tSF95oQppwePK7A52Zyp9ybeiaa+EUc         2SO+wGyJ2k1h5b17sL2MomxvMfkf/GeYxdjtqodPQT3gcbbNY10gOoVOMGUyLiHjoZ3M         sw6fxXn2KjNHyzhIRa4+H00i1+X45VDAkP5Fo/In3y4E840rhWimfmvrfteJimccZOsv         +9Kg=='
+            },
+            {'name': 'ARC-Message-Signature', 'value': 'i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=to:subject:message-id:date:from:in-reply-to:references:mime-version         :dkim-signature;        bh=AfChkAGxisMUwHhuFtLCKLHHn8UnrRabqfjn7hqHBOg=;        fh=d4DZNhF8tcCunIps7O5qLDA0+y4s9esErMhu1aJa0BI=;        b=008jkC4e+2efWUC6L+LlT6RW7kIusm3FWDapPl0bh8qeCsJT1wxWjqLB38TmIJjvnz         Njgf7lxHUdvytwHhL6VzfDUdrub2cUPwCpIL/dRLCpRzFLG6lmlsyDrVqRP9dCTHjL5D         TsLhr1zImq1AwspGYocPu9cCK8HEASQC7IS770TiR119ofoQ7cNFQMB+7uhBb017l/5b         lGZsI/xS+O/QIHHXIggjhbZqMthZJLIFIGNprkn6m20/IF8v2ztBIfXyRHTa45LpSlVP         1VWLRfKXpcsC34duOGOx5svrMEo3sh3LaCI+IUTDytMldsF/tg5BasxmtHkZEaIY/koz         KVYg==;        dara=google.com'
+            },
+            {'name': 'ARC-Authentication-Results', 'value': 'i=1; mx.google.com;       dkim=pass header.i=@gmail.com header.s=20230601 header.b=TtP7g1oR;       spf=pass (google.com: domain of julia.odonnell95@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=julia.odonnell95@gmail.com;       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com'
+            },
+            {'name': 'Return-Path', 'value': '<julia.odonnell95@gmail.com>'
+            },
+            {'name': 'Received', 'value': 'from mail-sor-f41.google.com (mail-sor-f41.google.com. [
+                    209.85.220.41
+                ])        by mx.google.com with SMTPS id i3-20020a0565123e0300b00515ad25a433sor74801lfv.5.2024.03.24.14.06.41        for <joao.mirilli@gmail.com>        (Google Transport Security);        Sun,
+                24 Mar 2024 14: 06: 41 -0700 (PDT)'
+            },
+            {'name': 'Received-SPF', 'value': 'pass (google.com: domain of julia.odonnell95@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;'
+            },
+            {'name': 'Authentication-Results', 'value': 'mx.google.com;       dkim=pass header.i=@gmail.com header.s=20230601 header.b=TtP7g1oR;       spf=pass (google.com: domain of julia.odonnell95@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=julia.odonnell95@gmail.com;       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com'
+            },
+            {'name': 'DKIM-Signature', 'value': 'v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com; s=20230601; t=1711314400; x=1711919200; dara=google.com;        h=to:subject:message-id:date:from:in-reply-to:references:mime-version         :from:to:cc:subject:date:message-id:reply-to;        bh=AfChkAGxisMUwHhuFtLCKLHHn8UnrRabqfjn7hqHBOg=;        b=TtP7g1oRiMFweR6V4RdpWSCGF0be0UM61QzatET1EfYbmugxIxRr9bb6FP9wl6RTR+         H+Eh5iKr5+FSNs6kGk8KsQbSWQ8LcZ+yaJ4+O4Ooe5/U+33Q73vZwaW6U+82CInHVxXk         oUX7VqtuPL/CyrxokHbYoUGRIe7gFFvTjYbVAtlhUgqH6DvINdM94K1P+bWDproHTFjz         mBK7TeLH5tEEw3Wi0lkrLcZuOteJjlvMxRrUBJ/xjw4dG9CgPNDGD5wo2bOm5mHcvrXd         Zzw+EBJiW31xFdkmrvor+BlpMQGSJrwJOf3G/qVrIbNszr5/2uTygc7QvHX02HRy77+i         EErA=='
+            },
+            {'name': 'X-Google-DKIM-Signature', 'value': 'v=1; a=rsa-sha256; c=relaxed/relaxed;        d=1e100.net; s=20230601; t=1711314400; x=1711919200;        h=to:subject:message-id:date:from:in-reply-to:references:mime-version         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;        bh=AfChkAGxisMUwHhuFtLCKLHHn8UnrRabqfjn7hqHBOg=;        b=FJqSktMGQAvK5Ym5fortL+rdOz3BAninIvpKYZP4Ay0owbGwdGOxMyyUG3a6cVNwsW         l65LFdcQjKmPfjybFbzzfjSUNDS8AYlxe5hL8vUmGEDWiCURN3+VYK6CgVfv9OwI1Wac         zY7VPvMA7BF1pFTkpTqFjYExXMTMUdGFjoafAMWBIC9Qir7AV+jryzoBu84wDP6GWLkb         XHpmExosBHeUaQQJSqPGlH5tpn8Ke1JofhEJk6XdzX/pve9VYhBLCmJFr3pAKCTVIYpX         oRILmGogQ+DyAntwL+nawrydJbGtfawVWjPqmLjHh0diEHKS40WPocqoANX3ntqRWvAE         9NZg=='
+            },
+            {'name': 'X-Gm-Message-State', 'value': 'AOJu0YylSjZHIRdRW/Or9MYl3pddqXJ5yPeOauEXfngw/HzVp/85l/vc 4rFR5n+BGumung3i77tWapFCMMl/1l9WqP7qAosvevY/OBEb2iYkqKfYGKESS8D1WPORAkrHbkv Ds2O9SdfCWK4YmRU4gTUnfh5ovJAjVlEA'
+            },
+            {'name': 'X-Google-Smtp-Source', 'value': 'AGHT+IFkczdgIpakDRcfHkeraG5lYNxfsZxYMjsI4VWRs/IZ4mOD6bJ64uFPmPlltauxiWK4hmbPvshHz7kMy+QGzrA='
+            },
+            {'name': 'X-Received', 'value': 'by 2002:ac2: 55b1: 0:b0: 515: 8dd7: 71d1 with SMTP id y17-20020ac255b1000000b005158dd771d1mr3367779lfg.67.1711314400261; Sun,
+                24 Mar 2024 14: 06: 40 -0700 (PDT)'
+            },
+            {'name': 'MIME-Version', 'value': '1.0'
+            },
+            {'name': 'References', 'value': '<CAFib0X+r_pFQRn9cxi3+UoYfzrJuZ9jqJLPDWs95YHEE0dt0Fg@mail.gmail.com>'
+            },
+            {'name': 'In-Reply-To', 'value': '<CAFib0X+r_pFQRn9cxi3+UoYfzrJuZ9jqJLPDWs95YHEE0dt0Fg@mail.gmail.com>'
+            },
+            {'name': 'From', 'value': '"Julia O\'Donnell" <julia.odonnell95@gmail.com>'
+            },
+            {'name': 'Date', 'value': 'Sun,
+                24 Mar 2024 18: 06: 27 -0300'
+            },
+            {'name': 'Message-ID', 'value': '<CALudf8YymwM2J8HG4F4ShpMC3V5RyE4yu-isC4S+OQzHgProUQ@mail.gmail.com>'
+            },
+            {'name': 'Subject', 'value': 'Re: â ¤ï¸'
+            },
+            {'name': 'To', 'value': 'joao.mirilli@gmail.com'
+            },
+            {'name': 'Content-Type', 'value': 'multipart/alternative; boundary="000000000000ed43c406146e6e89"'
+            }
+        ], 'body': {'size': 0
+        }, 'parts': [
+            {'partId': '0', 'mimeType': 'text/plain', 'filename': '', 'headers': [
+                    {'name': 'Content-Type', 'value': 'text/plain; charset="UTF-8"'
+                    },
+                    {'name': 'Content-Transfer-Encoding', 'value': 'quoted-printable'
+                    }
+                ], 'body': {'size': 228, 'data': 'VEUgQU1PIE1FVSBBTU9SDQpKIFUgTCBJIEEgICBPIEQgTyBOIE4gRSBMIEwNCiAgICA1NSAxMSA5IDc1NDQgMTIyMQ0KDQoNCkVtIHPDoWIuLCAyMyBkZSBtYXIuIGRlIDIwMjQgw6BzIDExOjExLCA8am9hby5taXJpbGxpQGdtYWlsLmNvbT4gZXNjcmV2ZXU6DQoNCj4gVGUgYW1vIG1ldSBhbW9yISDinaTvuI8gPC9icj4gVGhpcyBpcyBhIHRlc3QgZW1haWwgc2VudCB2aWEgR21haWwgQVBJLg0KPg0K'
+                }
+            },
+            {'partId': '1', 'mimeType': 'text/html', 'filename': '', 'headers': [
+                    {'name': 'Content-Type', 'value': 'text/html; charset="UTF-8"'
+                    },
+                    {'name': 'Content-Transfer-Encoding', 'value': 'quoted-printable'
+                    }
+                ], 'body': {'size': 997, 'data': 'PGRpdiBkaXI9Imx0ciI-VEUgQU1PIE1FVSBBTU9SPGJyIGNsZWFyPSJhbGwiPjxkaXY-PGRpdiBkaXI9Imx0ciIgY2xhc3M9ImdtYWlsX3NpZ25hdHVyZSIgZGF0YS1zbWFydG1haWw9ImdtYWlsX3NpZ25hdHVyZSI-PGRpdiBkaXI9Imx0ciI-PGRpdj48ZGl2IGRpcj0ibHRyIj48ZGl2IHN0eWxlPSJ0ZXh0LWFsaWduOmxlZnQiPjxmb250IGNvbG9yPSIjOTk5OTk5Ij48Zm9udCBzaXplPSIxIiBzdHlsZT0iZm9udC1mYW1pbHk6YXJpYWwsaGVsdmV0aWNhLHNhbnMtc2VyaWYiPkogVSBMIEkgQSDCoCBPIEQgTyBOIE4gRSBMIEwgwqA8L2ZvbnQ-PGZvbnQgc2l6ZT0iMSIgc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmIj7CoDwvZm9udD48L2ZvbnQ-PC9kaXY-PGRpdj48ZGl2IHN0eWxlPSJ0ZXh0LWFsaWduOmxlZnQiPjxmb250IGZhY2U9ImFyaWFsLCBoZWx2ZXRpY2EsIHNhbnMtc2VyaWYiIHNpemU9IjEiIGNvbG9yPSIjOTk5OTk5Ij7CoCDCoCA1NSAxMSA5IDc1NDQgMTIyMTwvZm9udD48L2Rpdj48L2Rpdj48L2Rpdj48L2Rpdj48L2Rpdj48L2Rpdj48L2Rpdj48YnI-PC9kaXY-PGJyPjxkaXYgY2xhc3M9ImdtYWlsX3F1b3RlIj48ZGl2IGRpcj0ibHRyIiBjbGFzcz0iZ21haWxfYXR0ciI-RW0gc8OhYi4sIDIzIGRlIG1hci4gZGUgMjAyNCDDoHMgMTE6MTEsICZsdDs8YSBocmVmPSJtYWlsdG86am9hby5taXJpbGxpQGdtYWlsLmNvbSI-am9hby5taXJpbGxpQGdtYWlsLmNvbTwvYT4mZ3Q7IGVzY3JldmV1Ojxicj48L2Rpdj48YmxvY2txdW90ZSBjbGFzcz0iZ21haWxfcXVvdGUiIHN0eWxlPSJtYXJnaW46MHB4IDBweCAwcHggMC44ZXg7Ym9yZGVyLWxlZnQ6MXB4IHNvbGlkIHJnYigyMDQsMjA0LDIwNCk7cGFkZGluZy1sZWZ0OjFleCI-VGUgYW1vIG1ldSBhbW9yISDinaTvuI8gJmx0Oy9iciZndDsgVGhpcyBpcyBhIHRlc3QgZW1haWwgc2VudCB2aWEgR21haWwgQVBJLjxicj4NCjwvYmxvY2txdW90ZT48L2Rpdj4NCg=='
+                }
+            }
+        ]
+    }, 'sizeEstimate': 6922, 'historyId': '25562946', 'internalDate': '1711314387000'
+}
