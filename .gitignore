@@ -1,9 +1,9 @@
-*.credentials.json
-*.token.json
-*.credentials-old.json
-*.token.picke
-*.prompt-suporte.txt
-*.api-key-hmail.txt
+.credentials.json
+.token.json
+.credentials-old.json
+.token.picke
+.prompt-suporte.txt
+.api-key-hmail.txt
 old-shit/
 separador/
 
