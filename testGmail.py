@@ -20,13 +20,13 @@ def list_unread_emails():
             
             for item in msg_data:
                 if item['name'] == 'Return-Path':
-                    endereço = item['value']
+                    endereco = item['value']
                 if item['name'] == 'Subject':
                     assunto = item['value']
                 if item['name'] == 'From':
                     nome = item['value']
                     
-            
+            #print(endereco)
             
             mensagem = email['snippet']
             
@@ -34,7 +34,7 @@ def list_unread_emails():
 
             
             mensagemGpt = gpt.get_completion_from_messages(mensagem, nome)
-            send_email(endereço, f're: {assunto}', mensagemGpt)
+            send_email(endereco, f're: {assunto}', mensagemGpt)
             
                     
 
